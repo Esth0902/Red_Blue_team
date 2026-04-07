@@ -1,0 +1,103 @@
+
+====================================================
+[2026-04-03T14:28:32.201Z] REQUÊTE CAPTURÉE
+IP       : ::1
+Cible    : GET /user
+Statut   : 500 (6ms)
+Outil    : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36
+Headers  : {"host":"localhost:3001","connection":"keep-alive","sec-ch-ua-platform":"\"Windows\"","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36","accept":"application/json, text/plain, */*","sec-ch-ua":"\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJ1c2VyX3JvbGUiOiJhZG1pbiIsImlhdCI6MTc3NTIyNDUzMX0.F3gZ_ZJJlhQGpYvteB-XYxYsK9x9KilWNFhf_3sHo4I","sec-ch-ua-mobile":"?0","origin":"http://localhost:3000","sec-fetch-site":"same-site","sec-fetch-mode":"cors","sec-fetch-dest":"empty","referer":"http://localhost:3000/","accept-encoding":"gzip, deflate, br, zstd","accept-language":"fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7","if-none-match":"W/\"5d-aInIhQkOso4uJ9Ay+5pmGxXQSUg\""}
+====================================================
+
+====================================================
+[2026-04-03T14:29:24.692Z] REQUÊTE CAPTURÉE
+IP       : ::1
+Cible    : POST /connection
+Statut   : 403 (2ms)
+Outil    : Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Mobile Safari/537.36
+Headers  : {"host":"localhost:3001","connection":"keep-alive","content-length":"41","sec-ch-ua-platform":"\"Android\"","user-agent":"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Mobile Safari/537.36","accept":"application/json, text/plain, */*","sec-ch-ua":"\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"","content-type":"application/json","sec-ch-ua-mobile":"?1","origin":"http://localhost:3000","sec-fetch-site":"same-site","sec-fetch-mode":"cors","sec-fetch-dest":"empty","referer":"http://localhost:3000/","accept-encoding":"gzip, deflate, br, zstd","accept-language":"fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7"}
+Payload  : {"mail":"admin@admin.com","password":"1"}
+
+TENTATIVE DE CONNEXION :
+   Mail ciblé     = "admin@admin.com"
+   Password testé = "attention au RGPD..."
+====================================================
+
+====================================================
+[2026-04-03T14:29:48.766Z] REQUÊTE CAPTURÉE
+IP       : ::1
+Cible    : POST /connection
+Statut   : 403 (3ms)
+Outil    : Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Mobile Safari/537.36
+Headers  : {"host":"localhost:3001","connection":"keep-alive","content-length":"43","sec-ch-ua-platform":"\"Android\"","user-agent":"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Mobile Safari/537.36","accept":"application/json, text/plain, */*","sec-ch-ua":"\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"","content-type":"application/json","sec-ch-ua-mobile":"?1","origin":"http://localhost:3000","sec-fetch-site":"same-site","sec-fetch-mode":"cors","sec-fetch-dest":"empty","referer":"http://localhost:3000/","accept-encoding":"gzip, deflate, br, zstd","accept-language":"fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7"}
+Payload  : {"mail":"admin@admin.com","password":"429"}
+
+TENTATIVE DE CONNEXION :
+   Mail ciblé     = "admin@admin.com"
+   Password testé = "attention au RGPD..."
+====================================================
+
+====================================================
+[2026-04-03T14:30:15.746Z] REQUÊTE CAPTURÉE
+IP       : ::1
+Cible    : GET /
+Statut   : 500 (26ms)
+Outil    : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36
+Headers  : {"host":"localhost:3001","connection":"keep-alive","sec-ch-ua":"\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"","sec-ch-ua-mobile":"?0","sec-ch-ua-platform":"\"Windows\"","upgrade-insecure-requests":"1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36","accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7","sec-fetch-site":"none","sec-fetch-mode":"navigate","sec-fetch-user":"?1","sec-fetch-dest":"document","accept-encoding":"gzip, deflate, br, zstd","accept-language":"fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7"}
+====================================================
+
+====================================================
+[2026-04-03T14:30:16.398Z] REQUÊTE CAPTURÉE
+IP       : ::1
+Cible    : GET /favicon.ico
+Statut   : 500 (2ms)
+Outil    : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36
+Headers  : {"host":"localhost:3001","connection":"keep-alive","sec-ch-ua-platform":"\"Windows\"","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36","sec-ch-ua":"\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"","sec-ch-ua-mobile":"?0","accept":"image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8","sec-fetch-site":"same-origin","sec-fetch-mode":"no-cors","sec-fetch-dest":"image","referer":"http://localhost:3001/","accept-encoding":"gzip, deflate, br, zstd","accept-language":"fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7"}
+====================================================
+
+====================================================
+[2026-04-03T14:30:34.336Z] REQUÊTE CAPTURÉE
+IP       : ::1
+Cible    : POST /connection
+Statut   : 200 (4ms)
+Outil    : Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Mobile Safari/537.36
+Headers  : {"host":"localhost:3001","connection":"keep-alive","content-length":"43","sec-ch-ua-platform":"\"Android\"","user-agent":"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Mobile Safari/537.36","accept":"application/json, text/plain, */*","sec-ch-ua":"\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"","content-type":"application/json","sec-ch-ua-mobile":"?1","origin":"http://localhost:3000","sec-fetch-site":"same-site","sec-fetch-mode":"cors","sec-fetch-dest":"empty","referer":"http://localhost:3000/","accept-encoding":"gzip, deflate, br, zstd","accept-language":"fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7"}
+Payload  : {"mail":"admin@admin.com","password":"429"}
+
+TENTATIVE DE CONNEXION :
+   Mail ciblé     = "admin@admin.com"
+   Password testé = "attention au RGPD..."
+====================================================
+
+====================================================
+[2026-04-03T14:30:34.370Z] REQUÊTE CAPTURÉE
+IP       : ::1
+Cible    : GET /admin
+Statut   : 200 (9ms)
+Outil    : Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Mobile Safari/537.36
+Headers  : {"host":"localhost:3001","connection":"keep-alive","sec-ch-ua-platform":"\"Android\"","user-agent":"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Mobile Safari/537.36","accept":"application/json, text/plain, */*","sec-ch-ua":"\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJ1c2VyX3JvbGUiOiJhZG1pbiIsImlhdCI6MTc3NTIyNjYzNH0.qqLfWKtvJL26k3UVrUItW275LTegGlWZ82bkk-T4rgA","sec-ch-ua-mobile":"?1","origin":"http://localhost:3000","sec-fetch-site":"same-site","sec-fetch-mode":"cors","sec-fetch-dest":"empty","referer":"http://localhost:3000/","accept-encoding":"gzip, deflate, br, zstd","accept-language":"fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7"}
+Payload  : {"user_id":1,"user_role":"admin"}
+====================================================
+
+====================================================
+[2026-04-03T14:30:46.273Z] REQUÊTE CAPTURÉE
+IP       : ::1
+Cible    : POST /connection
+Statut   : 200 (2ms)
+Outil    : Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Mobile Safari/537.36
+Headers  : {"host":"localhost:3001","connection":"keep-alive","content-length":"44","sec-ch-ua-platform":"\"Android\"","user-agent":"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Mobile Safari/537.36","accept":"application/json, text/plain, */*","sec-ch-ua":"\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"","content-type":"application/json","sec-ch-ua-mobile":"?1","origin":"http://localhost:3000","sec-fetch-site":"same-site","sec-fetch-mode":"cors","sec-fetch-dest":"empty","referer":"http://localhost:3000/","accept-encoding":"gzip, deflate, br, zstd","accept-language":"fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7"}
+Payload  : {"mail":"admin@admin.com","password":"pass"}
+
+TENTATIVE DE CONNEXION :
+   Mail ciblé     = "admin@admin.com"
+   Password testé = "attention au RGPD..."
+====================================================
+
+====================================================
+[2026-04-03T14:30:46.308Z] REQUÊTE CAPTURÉE
+IP       : ::1
+Cible    : GET /admin
+Statut   : 304 (4ms)
+Outil    : Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Mobile Safari/537.36
+Headers  : {"host":"localhost:3001","connection":"keep-alive","sec-ch-ua-platform":"\"Android\"","user-agent":"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Mobile Safari/537.36","accept":"application/json, text/plain, */*","sec-ch-ua":"\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJ1c2VyX3JvbGUiOiJhZG1pbiIsImlhdCI6MTc3NTIyNjY0Nn0.tY2NDrUpZG41VSceEZc0xd6Wa9Tugswds55ilMDEihU","sec-ch-ua-mobile":"?1","origin":"http://localhost:3000","sec-fetch-site":"same-site","sec-fetch-mode":"cors","sec-fetch-dest":"empty","referer":"http://localhost:3000/","accept-encoding":"gzip, deflate, br, zstd","accept-language":"fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7","if-none-match":"W/\"166-MqMvYZes5rhkDWdCOy3nGeaf9T0\""}
+Payload  : {"user_id":1,"user_role":"admin"}
+====================================================

@@ -1,0 +1,23 @@
+[
+    {
+        "id" : 1,
+        "mail" : "admin@admin.com",
+        "password" : "3861",
+        "role" : "admin",
+        "secret" : "Ceci est un secret ultra secret !"
+    },
+    {
+        "id" : 2,
+        "mail" : "user1@gmail.com",
+        "password" : "6",
+        "role" : "user",
+        "secret" : "Si tu vois un oiseau blanc sur un lac, c'est un signe !"
+    },
+    {
+        "id" : 3,
+        "mail" : "user2@gmail.com",
+        "password" : "7",
+        "role" : "user",
+        "secret" : "Le caractère autotélique et systémique du capitalisme ne doit pas être absolutisé !"
+    }
+]
