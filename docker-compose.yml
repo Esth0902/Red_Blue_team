@@ -2,7 +2,7 @@ version: "3.8"
 
 services:
   api:
-    build:
+    build: 
       context: ./api
       dockerfile: Dockerfile
     ports:
@@ -10,7 +10,7 @@ services:
     restart: always
     environment:
       - NODE_ENV=production
-
+      - ACCESS_TOKEN_SECRET=ma_super_cle_secrete_jwt
   frontend:
     build:
       context: ./40bierges
