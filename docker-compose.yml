@@ -1,8 +1,8 @@
-version: '3.8'
+version: "3.8"
 
 services:
   api:
-    build: 
+    build:
       context: ./api
       dockerfile: Dockerfile
     ports:
@@ -12,11 +12,11 @@ services:
       - NODE_ENV=production
 
   frontend:
-    build: 
+    build:
       context: ./40bierges
       dockerfile: Dockerfile
     ports:
-      - "80:3000" # Le site prend maintenant la place du port 80 (HTTP standard)
+      - "80:3000" #Port 80 (HTTP standard)
     restart: always
     environment:
       - WDS_SOCKET_PORT=0 # Évite les erreurs de websocket avec react-scripts
