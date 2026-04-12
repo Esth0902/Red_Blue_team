@@ -2,11 +2,9 @@ var whitelist = ['http://localhost:8080', 'http://localhost:3000', 'http://local
 
 module.exports = corsOptions = {
   origin: function (origin, callback) {
-    if (whitelist.indexOf(origin) !== -1 || origin === undefined) {
-      let corsOption = {origin: true}
-      callback(null, corsOption)
-    } else {
-      callback(new Error('Not allowed by CORS'))
-    }
+    // Pour ne pas "leaker" l'IP sur GitHub, on accepte temporairement toutes les origines
+    // ou on pourrait rajouter l'IP du VPS dynamique depuis les variables d'environnement.
+    let corsOption = {origin: true}
+    callback(null, corsOption)
   }
 }
