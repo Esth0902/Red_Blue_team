@@ -1,0 +1,26 @@
+name: Deploy to VPS
+
+on:
+  push:
+    branches:
+      - master # ou master, selon le nom de ta branche par défaut
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Executer le script de déploiement via SSH
+        uses: appleboy/ssh-action@v1.0.3
+        with:
+          host: 174.138.14.145
+          username: root
+          key: ${{ secrets.VPS_SSH_KEY }}
+          script: |
+            # On va dans le dossier du projet sur le serveur
+            cd Red_Blue_team
+            
+            # On récupère les dernières modifications de GitHub
+            git pull origin master
+            
+            # On reconstruit et on relance les conteneurs en arrière-plan
+            docker compose up -d --build

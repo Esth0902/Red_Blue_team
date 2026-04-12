@@ -20,7 +20,7 @@ class Blog extends React.Component {
       messages: [],
       token: "",
       isLoading: true,
-      url: "http://localhost:3001"
+      url: "http://" + window.location.hostname + ":3001"
     };
     this.handleChange = this.handleChange.bind(this)
     this.handleSend = this.handleSend.bind(this)
