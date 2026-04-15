@@ -9,14 +9,14 @@
     {
         "id" : 2,
         "mail" : "user1@gmail.com",
-        "password" : "6",
+        "password" : "2574",
         "role" : "user",
         "secret" : "Si tu vois un oiseau blanc sur un lac, c'est un signe !"
     },
     {
         "id" : 3,
         "mail" : "user2@gmail.com",
-        "password" : "7",
+        "password" : "3003",
         "role" : "user",
         "secret" : "Le caractère autotélique et systémique du capitalisme ne doit pas être absolutisé !"
     }
